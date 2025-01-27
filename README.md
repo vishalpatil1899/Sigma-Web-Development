@@ -8,4 +8,4 @@ Full Stack Development
 7. select
 8. label for
 9. radio
-10. 
+10. option
