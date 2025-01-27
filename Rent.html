@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental service</title>
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+    <form action="post" method="post">
+        <div>
+            <label for="Enter your Name">Name:</label>
+            <input type="text" placeholder="Enter Your Name" value="">
+        </div>
+
+        <div>
+            <label for="Occupation">Occupation</label>
+            <input type="text" placeholder="Occupation">
+        </div>
+        <div>
+            <label for="Enter number of member">Number of Members:</label>
+            <input type="text" placeholder="Number of member">
+        </div>
+
+        <div>
+            <label for="Room Type">Room Type:</label>
+            <select name="Room type">
+                <option value="1 BHK">1 BHK</option>
+                <option value="1 RK">1 RK</option>
+                <option value="2 BHK">2 BHK</option>
+                <option value="3 BHK">3 BHK</option>
+            </select>
+        </div>
+        <div>
+            <label for="Vehicle">Do You Have Vehicle</label>
+            <select name="Vehicle" id="Vehicle">
+                <option value="Yes">Yes</option>
+                <option value="No">No</option>
+            </select>
+        </div>
+
+        <div>
+
+            <input type="radio" name="Vehicle" id="2 Wheeler" value="4 Wheeler">
+            <label for="4 Wheeler">2 Wheeler</label>
+
+            <input type="radio" name="Vehicle" id="4 Wheeler" vale="4 Wheeler">
+            <label for="4 Wheeler">4 Wheeler</label>
+        </div>
+        <div>
+            <label for="Documents">Documents</label>
+            <select name="Documents" id="Documents">
+                <option value="Aadhar Card">Aadhar Card</option>
+                <option value="Voter ID">Voter ID </option>
+                <option value="Pan Card">Pan Card</option>
+            </select>
+        </div>
+        <div>
+            <input type="checkbox" name="Light Bill" value="yes">
+            <label for="Light Bill">Light Bill</label>
+
+            <input type="checkbox" name="Water Bill" value="yes">
+            <label for="Water Bill">Water Bill</label>
+        </div>
+
+
+        <div>
+            <label for="comment">Enter your comment here..... </label>
+            <br>
+            <textarea name="comment" id="" rows="4" cols="50" placeholder="reason for shifting"></textarea>
+        </div>
+
+    </form>
+
+
+</body>
+
+</html>
